@@ -30,3 +30,69 @@ Before you begin, ensure you have the following installed:
 
 - Python 3.x
 - Google Cloud SDK (for interacting with Vertex AI) and apiplatform
+
+
+---
+
+# Benchmarking Understanding Recall@K
+
+## Overview
+Recall@K is a metric commonly used in information retrieval and recommendation systems to evaluate how well a system retrieves relevant items from a larger set. The "@K" indicates that we're only looking at the top K items in the ranked results.
+
+<img src="https://weaviate.io/assets/images/recall-703696c47da2508ebeebb0901ad7addf.jpg">
+
+## Definition
+Recall@K measures the proportion of relevant items that are successfully retrieved in the top K results, out of all relevant items that should have been retrieved.
+
+The formula for Recall@K is:
+
+$$ Recall@K = \frac{|\{\text{relevant items}\} \cap \{\text{retrieved items@K}\}|}{|\{\text{relevant items}\}|} $$
+
+Where:
+- $|\{\text{relevant items}\} \cap \{\text{retrieved items@K}\}|$ represents the number of relevant items in the top K results
+- $|\{\text{relevant items}\}|$ represents the total number of relevant items
+
+## Example: Recall@3
+Let's walk through a practical example to understand Recall@3.
+More at: https://www.pinecone.io/learn/offline-evaluation/
+### Scenario
+Imagine a music recommendation system with the following setup:
+- User's actual favorite songs (relevant items): "Song A", "Song B", "Song C", "Song D"
+- System's top 3 recommendations: "Song A", "Song B", "Song X"
+
+### Calculation
+Given:
+- $|\{\text{relevant items}\} \cap \{\text{retrieved items@3}\}| = 2$ (Song A, Song B)
+- $|\{\text{relevant items}\}| = 4$ (Song A, Song B, Song C, Song D)
+
+$$ Recall@3 = \frac{2}{4} = 0.5 \text{ or } 50\% $$
+
+This means that our system successfully retrieved 50% of the user's favorite songs within its top 3 recommendations.
+
+## Why Use Recall@K?
+
+1. **Limited Display Space**: In real applications, we can only show a limited number of recommendations to users (e.g., first page of search results).
+
+2. **User Attention**: Users typically only look at the first few results, making it crucial to get relevant items in the top positions.
+
+3. **Performance Evaluation**: Helps measure how well a system retrieves relevant items when there's a specific cut-off point.
+
+4. **Trade-off Analysis**: Can be used alongside other metrics (like Precision@K) to understand the balance between finding all relevant items and maintaining result quality.
+
+## Common Values for K
+- K = 1: When only the top result matters
+- K = 3, 5: For mobile applications or limited screen space
+- K = 10: Common for search engine results (first page)
+- K = 20, 50: For broader recommendation lists
+
+## Limitations
+- Doesn't consider the ordering within the top K results
+- Doesn't penalize for irrelevant results
+- May not be suitable when the number of relevant items varies greatly between queries
+
+## Example Use Cases
+- Search engines
+- Product recommendation systems
+- Content discovery platforms
+- Image retrieval systems
+- Document ranking systems
