@@ -1,0 +1,47 @@
+[
+    {
+        "query": "What is Toyota\u2019s strategy regarding electric vehicles (EVs)?",
+        "relevant_docs": [
+            "Toyota\u2019s overhyped solid-state battery is the latest feint in its slow-moving, abundantly-hedged EV transition strategy.",
+            "What it all adds up to is this: the world\u2019s largest carmaker has transitioned from outright EV denialism into a cautious, slow-moving, abundantly-hedged EV transition strategy, with a hearty dose of doublespeak thrown in.",
+            "For carmakers, making money in the EV transition is something like catching a wave. Transition your designs and factories too early, and you\u2019ll be ready when it comes, but lose a lot of money in the process. Transition too late, and you\u2019ll miss it entirely and get squeezed out of the market."
+        ],
+        "article_id": 6341071
+    },
+    {
+        "query": "What is the Khalistan movement and its connection to the assassination of Hardeep Singh Nijjar?",
+        "relevant_docs": [
+            "Hardeep Singh Nijjar was gunned down in his truck on June 18, 2023, by two masked men in front of a Sikh temple in Surrey, British Columbia.",
+            "The 45-year-old, who migrated to Canada in the 1990s, was a strong advocate for the Khalistan movement, which calls for a separate homeland for the ethnoreligious Sikh community\u2014which makes up less than 2% of the country\u2019s population\u2014in India\u2019s Punjab region.",
+            "At the height of an insurgency in the 1980s and 1990s, tens of thousands were killed amid armed violence between Khalistan supporters and the Indian army."
+        ],
+        "article_id": 6315565
+    },
+    {
+        "query": "How did electricity companies in the 1920s influence public opinion to survive antitrust investigations?",
+        "relevant_docs": [
+            "In responding to this crisis, electricity company executives learned from a fatal mistake made by 19th century railroad monopolies. The railroad companies had expressed a \u201cpublic be damned\u201d attitude, which fueled animosity from Americans and aggressive government interference in their industry. To avoid any similar limitations on their control of the electricity industry, executives undertook the largest non-governmental public relations campaign the U.S. had ever seen.",
+            "Their logic was simple\u2014though at the time it was revolutionary. Public opinion now ruled the political economy of the nation, these executives believed. No monopoly operating permit, rate hike, or regulatory structure could survive if it failed in the court of public opinion. \u201cPublic sentiment controls the ultimate destiny of every utility company,\u201d declared an electricity executive in 1922.",
+            "This massive public relations campaign proved exceptionally effective. Even critics of electricity monopolies admitted by the late 1920s that public opinion toward these companies had dramatically improved. Not even the Great Depression and President Franklin D. Roosevelt\u2019s New Deal in the 1930s could dislodge corporate electricity monopolies from their privileged position within the American economy."
+        ],
+        "article_id": 6321896
+    },
+    {
+        "query": "How does John Kerry view the role of private finance in addressing climate change?",
+        "relevant_docs": [
+            "In our conversation, Kerry said that the key to getting private climate finance rests in finding ways for investors to profit. \u201cMoney behaves in certain ways. It always has. It always will. It seeks the greatest return on investment, the fastest return on investment, or the best combination of the two,\u201d he says. \u201cThe bottom line: is the deal bankable?\u201d",
+            "To create bankable deals, Kerry\u2014along with the COP presidency and climate finance experts\u2014are pushing a model known as blended finance. Governments and development banks like the World Bank provide money for projects on generous terms, which then makes it less risky for private investors to provide their capital.",
+            "Kerry acknowledged as much, linking the challenge of Congressional funding for international climate measures to political polarization that has been on the rise since the 1990s. \u201cPublic money has to be part of the equation\u2014and there\\'s not enough of it. And there hasn\\'t been enough of it for quite some time,\u201d he says. \u201cThat\\'s a reflection of really tough politics that have been created in our country.\u201d"
+        ],
+        "article_id": 6331171
+    },
+    {
+        "query": "What are the capabilities and limitations of North Korea\\'s new nuclear-capable submarine?",
+        "relevant_docs": [
+            "North Korea said Friday its new submarine has nuclear attack capabilities after years of development. Leader Kim Jong Un described the milestone as crucial in his efforts to build a nuclear-armed navy to counter the United States and its Asian allies. The North\u2019s official Korean Central News Agency said the vessel, named \u201cHero Kim Kun Ok,\u201d is designed to launch tactical nuclear weapons from underwater but did not specify the number of missiles it could carry and fire.",
+            "\u201cThis submarine, though heavily modified, is based on 1950s Soviet-origin technology and will have inherent limitations. Nevertheless, in terms of complicating the targeting challenges that the U.S. and its allies will face, the submarine will serve North Korea\u2019s purposes,\u201d said Ankit Panda, an expert with the Carnegie Endowment for International Peace.",
+            "South Korean officials were skeptical that the submarine would work as North Korea described and said it likely wasn\u2019t ready for operational duty. Still, the vessel\u2019s development underscored how the North continues to potentially extend the range of its nuclear arsenal with systems that are harder to detect in advance."
+        ],
+        "article_id": 6311958
+    }
+]
